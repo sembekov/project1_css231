@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>My website</title>
+		<link rel="stylesheet" href="style.css">
+		<link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+		<style>
+body {
+	font-family: 'JetBrains Mono', monospace;
+}
+		</style>
+	</head>
+	<body>
+		<header class="main-header">
+			<nav class="navbar">
+				<h1 class="site-title">My website!</h1>
+				<ul class="nav-links">
+					<li><a href="#home">Home</a></li>
+					<li><a href="#family">Family</a></li>
+					<li><a href="#education">Education</a></li>
+					<li><a href="#hobbies">Hobbies</a></li>
+					<li><a href="#contact">Contact</a></li>
+				</ul>
+			</nav>
+		</header>
+
+		<section id="home" class="home-section">
+			<h2>Welcome to my personal website</h2>
+			<p>Hi there! My name is Sayat Sembekov, a passionate learner and developer. I love to explore new technologies and build projects that make a difference. Below are some images that reflect me and interests.</p>
+
+			<div class="welcome-images">
+				<div class="image-container">
+					<img src="assets/image1.jpg" alt="Description of image 1">
+					<p>Me</p>
+				</div>
+				<div class="image-container">
+					<img src="assets/image2.jpg" alt="Description of image 2">
+					<p>Me again</p>
+				</div>
+				<div class="image-container">
+					<img src="assets/image3.jpg" alt="Description of image 3">
+					<p>Enjoying a hackathon</p>
+				</div>
+				<div class="image-container">
+					<img src="assets/image4.jpg" alt="Description of image 4">
+					<p>Going to the vacation with friends</p>
+				</div>
+				<div class="image-container">
+					<img src="assets/image5.jpg" alt="Description of image 5">
+					<p>Chilling with old friends</p>
+				</div>
+			</div>
+		<div class="cv-section">
+			<a href="assets/cv.pdf" class="cv-download" download="My_CV.pdf">Download My CV</a>
+		</div>
+		</section>
+
+
+    <section id="family" class="family-section">
+	    <h2>My Family</h2>
+	    <div class="family-grid">
+		    <div class="family-member">
+			    <img src="assets/father.jpg" alt="Family Member 1">
+			    <p>Father</p>
+			    <p>This is my father. His name is Marat Sembekov, and he works at a special agency, where he plays a crucial role in defending our country and people. He is dedicated and passionate about his job, always striving to make a difference.</p>
+		    </div>
+		    <div class="family-member">
+			    <img src="assets/mother.jpg" alt="Family Member 2">
+			    <p>Mother</p>
+			    <p>This is my mother. Her name is Aizhan Adambayeva, and she works as IE. She brings creativity and warmth to everything she does, whether at work or at home. She inspires those around her with her kindness and determination.</p>
+		    </div>
+	    </div>
+    </section>
+
+    <section id="education" class="education-section">
+	    <h2>My Education</h2>
+	    <ul class="timeline">
+		    <li>
+			    <h4>High school diploma 2023</h4>
+			    <p>Liceum school #85 named after Tamim bin Hamad Al-Thani, Astana</p>
+		    </li>
+		    <li>
+			    <h4>SDU University Bachelor's in Computer Science 2023-2027</h4>
+			    <p class="text">Algorithms, Algorithms, Calculus, Discrete math, Frontend
+			    <p>I attended SDU University, where I am studying my Bachelor's degree in Computer Science. During my time at university, I focused on software development, algorithms and cybersecurity.
+			    I also participated in various hackathons and coding competitions, gaining hands-on experience in team collaboration and problem-solving. Right now I'm in the Technopark club where I and other students working with different projects.</p>
+		    </li>
+		    <div class="education-images">
+			    <img src="assets/school.jpeg">
+			    <img src="assets/uni.jpg">
+		    </div>
+	    </ul>
+    </section>
+
+    <section id="hobbies" class="hobby-section">
+	    <h2>My Hobbies</h2>
+	    <div class="hobby-gallery">
+		    <div class="hobby">
+			    <img src="assets/hobby1_1.png" alt="Hobby 1">
+			    <p>Programming</p>
+		    </div>
+		    <div class="hobby">
+			    <img src="assets/hobby2.png" alt="Hobby 2">
+			    <p>Computer games</p>
+		    </div>
+		    <div class="hobby">
+			    <img src="assets/hobby4.png" alt="Hobby 3">
+			    <p>Cybersecurity</p>
+		    </div>
+		    <div class="hobby">
+			    <img src="assets/hobby5.png" alt="Hobby 4">
+			    <p>Speed typing</p>
+		    </div>
+		    <div class="hobby">
+			    <img src="assets/hobby3.jpg" alt="Hobby 5">
+			    <p>Piano</p>
+		    </div>
+
+	    </div>
+	    <span>
+		    <p>I’m a person with many interests, especially in computers. In my childhood, I took music classes and learned to play the piano. In my free time, I still enjoy playing and plan to continue improving my skills. I believe that every person, especially at a young age, should learn a variety of skills. Ultimately, it's important to choose one path and strive to become a master at it.</p>
+	    </span>
+    </section>
+
+    <section id="contact" class="contact-section">
+	    <h2>Contact Me</h2>
+	    <div class="contact-main">
+		    <form class="contact-form">
+			    <label for="name">Name:</label>
+			    <input type="text" id="name" name="name">
+			    <label for="email">Email:</label>
+			    <input type="email" id="email" name="email">
+			    <label for="message">Message:</label>
+			    <textarea id="message" name="message"></textarea>
+			    <button type="submit">Send</button>
+		    </form>
+	    </div>
+    </section>
+    <div class="social-links">
+	    <a href="https://github.com/sembekov" target="_blank" class="social-link">
+		    <i class="fab fa-github"></i> GitHub
+	    </a>
+	    <a href="https://linkedin.com/in/sembekov" target="_blank" class="social-link">
+		    <i class="fab fa-linkedin"></i> LinkedIn
+	    </a>
+	    <a href="mailto:email@example.com" class="social-link">
+		    <i class="fas fa-envelope"></i> Gmail
+	    </a>
+	    <a href="https://t.me/yourusername" target="_blank" class="social-link">
+		    <i class="fab fa-telegram-plane"></i> Telegram
+	    </a>
+	    <a href="https://defcon.org/" target="_blank" class="social-link">
+		    <i class="fas fa-user-shield"></i> Forum
+	    </a>
+    </div>
+</body>
+</html>
