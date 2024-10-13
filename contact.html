@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact - My Website</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <header class="main-header">
+        <nav class="navbar">
+            <h1 class="site-title">My portfolio!</h1>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="family.html">Family</a></li>
+                <li><a href="education.html">Education</a></li>
+                <li><a href="hobbies.html">Hobbies</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="contact" class="contact-section">
+        <h2>Contact Me</h2>
+        <div class="contact-main">
+            <form class="contact-form">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" required></textarea>
+                
+                <button type="submit">Send</button>
+            </form>
+        </div>
+    </section>
+
+    <div class="social-links">
+        <a href="https://github.com/sembekov" target="_blank" class="social-link">
+            <i class="fab fa-github"></i> GitHub
+        </a>
+        <a href="https://linkedin.com/in/sembekov" target="_blank" class="social-link">
+            <i class="fab fa-linkedin"></i> LinkedIn
+        </a>
+        <a href="mailto:email@example.com" class="social-link">
+            <i class="fas fa-envelope"></i> Email
+        </a>
+        <a href="https://t.me/yourusername" target="_blank" class="social-link">
+			<i class="fab fa-telegram-plane"></i> Telegram
+		</a>
+		<a href="https://defcon.org/" target="_blank" class="social-link">
+			<i class="fas fa-user-shield"></i> Forum
+		</a>
+
+    </div>
+</body>
+</html>

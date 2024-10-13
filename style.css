@@ -1,5 +1,8 @@
+* {
+	font-family: 'JetBrains Mono', sans-serif;
+}
+
 body {
-    font-family: 'JetBrains Mono', sans-serif;
     margin: 0;
     padding: 0;
     background-color: #f4f4f4;
@@ -220,15 +223,27 @@ html {
 }
 
 .hobby-section span {
-	text-align: center;
-	border: 50px;
-	background-color: black;
+    text-align: center;
+    border: 50px;
+    background-color: black;
 }
+
+.hobby-section p {
+	margin: 50px 90px;
+}
+
 
 .hobby-section span p {
 	background-color: grey;
 }
 
+.centered-image {
+    display: block; 
+    margin-left: auto; 
+    margin-right: auto; 
+    max-width: 100%; 
+    height: auto; 
+}
 
 .contact-main {
     padding: 20px;
@@ -312,3 +327,47 @@ html {
     color: #ffffff; 
 }
 
+
+.skills-section {
+    text-align: left;
+    max-width: 700px;
+    margin: 0 auto;
+}
+
+.skill {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.skill i {
+    font-size: 24px;
+    color: #333;
+    min-width: 30px; 
+    text-align: center;
+}
+
+.skill span {
+    min-width: 150px; 
+    display: inline-block; 
+    white-space: nowrap; 
+    margin-left: 10px; 
+}
+
+.progress {
+    flex-grow: 1; 
+    height: 20px;
+    background: #ddd;
+    border-radius: 5px;
+    margin-left: 15px; 
+}
+
+.progress-bar {
+    height: 100%;
+    background-color: #28a745;
+    border-radius: 5px;
+}
+
+.skill i + i {
+    margin-left: 5px; 
+}
